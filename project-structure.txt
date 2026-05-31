@@ -1,0 +1,38 @@
+green-link-iot/
+├── README.md                 # Project overview, features, photos, quick start
+├── LICENSE
+├── docs/                     # Extra documentation
+│   ├── hardware-schematic.pdf
+│   ├── api-spec.md           # JSON request/response examples
+│   ├── wiring-diagram.png
+│   └── user-guide.md
+├── hardware/                 # Hardware-related files
+│   ├── bom.csv               # Bill of materials
+│   ├── schematic/            # KiCad or Fritzing files
+│   ├── enclosure/            # 3D models (STL)
+│   └── notes.md
+├── firmware/                 # ESP32 code (PlatformIO or Arduino)
+│   ├── platformio.ini
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── sensors.h / .cpp
+│   │   ├── actuators.h / .cpp   # Pumps, PWM, buzzer
+│   │   ├── rtc.h / .cpp
+│   │   ├── web_server.h / .cpp  # JSON API
+│   │   ├── scheduler.h / .cpp
+│   │   └── config.h
+│   ├── lib/                  # Custom libraries if any
+│   ├── data/                 # LittleFS files (web assets if any)
+│   └── test/                 # Unit tests if added
+├── android/                  # Jetpack Compose Android app
+│   ├── app/
+│   │   ├── src/main/
+│   │   │   ├── java/... or kotlin/...   # Package structure
+│   │   │   ├── res/
+│   │   │   └── AndroidManifest.xml
+│   │   ├── build.gradle.kts
+│   │   └── ... (Compose screens, ViewModels, network layer)
+│   ├── build.gradle.kts
+│   └── settings.gradle.kts
+├── .gitignore
+└── CONTRIBUTING.md
