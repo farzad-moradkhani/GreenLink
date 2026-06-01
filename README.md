@@ -9,6 +9,14 @@
 [![Android](https://img.shields.io/badge/Android-Jetpack%20Compose-green)](https://developer.android.com/jetpack/compose)
 
 Green Link is an open-source, autonomous IoT irrigation system designed for efficient and precise garden watering. It combines reliable ESP32-based hardware with a modern Android application, enabling both scheduled autonomous operation and convenient remote control via WiFi.
+---
+## 🟢 Updates
+
+Added 3D models to pcb of RTC (real time clock) module.
+![RTC IMAGE](/preview/rtc_rendered.png)
+
+
+
 
 ---
 
