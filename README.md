@@ -12,8 +12,8 @@ Green Link is an open-source, autonomous IoT irrigation system designed for effi
 ---
 ## 🟢 Updates
 
-Added 3D models to pcb of RTC (real time clock) module.
-![RTC IMAGE](/preview/rtc_rendered.png)
+Designed Motor Channel module and also added it's 3D components
+![MC IMAGE](/preview/mc_gl_rendered.png)
 
 
 
